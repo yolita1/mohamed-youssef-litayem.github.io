@@ -1,30 +1,165 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Mohamed Youssef Litayem – Étudiant MP2I</title>
+  <title>Mohamed Youssef Litayem | Développeur & étudiant en informatique</title>
 
-  <meta name="description"
-        content="Mohamed Youssef Litayem, étudiant MP2I, informatique, algorithmique, mathématiques, modélisation scientifique.">
+  <meta name="description" content="Site personnel de Mohamed Youssef Litayem, étudiant en informatique, passionné par le développement logiciel, les mathématiques, l'algorithmique et les projets web." />
+  <meta name="author" content="Mohamed Youssef Litayem" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Mohamed Youssef Litayem, Youssef Litayem, Mohamed Litayem, yolita1, GitHub, informatique, développement web, programmation, MP2I" />
 
-  <meta name="author" content="Mohamed Youssef Litayem"</head>
+  <meta property="og:title" content="Mohamed Youssef Litayem" />
+  <meta property="og:description" content="Étudiant en informatique, passionné par le développement logiciel, les mathématiques et l'algorithmique." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yolita1.github.io/" />
 
+  <link rel="canonical" href="https://yolita1.github.io/" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
 <body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top" aria-label="Accueil">MYL</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+      <div class="nav-links">
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#skills">Compétences</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-  <h1>Mohamed Youssef Litayem</h1>
+  <main id="top">
+    <section class="hero section reveal">
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio personnel</p>
+        <h1>Mohamed Youssef Litayem</h1>
+        <p class="subtitle">
+          Étudiant en informatique, passionné par le développement logiciel,
+          les mathématiques et l'algorithmique.
+        </p>
+        <p class="intro">
+          Je partage ici mes projets personnels, mes expérimentations et mon parcours.
+          Vous pouvez retrouver mon code source et mes projets sur GitHub.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/yolita1" target="_blank" rel="noopener noreferrer">Voir mon GitHub</a>
+          <a class="button secondary" href="mailto:ym.litayem@gmail.com">Me contacter</a>
+        </div>
+      </div>
 
-  <p>Étudiant MP2I</p>
+      <aside class="profile-card" aria-label="Résumé du profil">
+        <div class="avatar">YL</div>
+        <h2>Youssef Litayem</h2>
+        <p>Étudiant MP2I · Marseille</p>
+        <ul>
+          <li>Développement web</li>
+          <li>Algorithmique</li>
+          <li>Mathématiques</li>
+        </ul>
+      </aside>
+    </section>
 
-  <p>
-    
-  </p>
+    <section id="about" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">À propos</p>
+        <h2>Un profil scientifique orienté projets</h2>
+      </div>
+      <div class="text-block">
+        <p>
+          Je suis étudiant en classe préparatoire MP2I à Marseille. J'aime comprendre les notions en profondeur,
+          construire des projets concrets et progresser en programmation à travers la pratique.
+        </p>
+        <p>
+          Mes centres d'intérêt principaux sont le développement logiciel, l'informatique, les mathématiques,
+          la résolution de problèmes et les projets web utiles.
+        </p>
+      </div>
+    </section>
 
+    <section id="projects" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Projets</p>
+        <h2>Quelques projets personnels</h2>
+      </div>
 
-  <p>
-    GitHub :
-    <a href="https://github.com/yolita1">https://github.com/yolita1</a>
-  </p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Arène du Code</h3>
+          <p>
+            Plateforme web de programmation compétitive où des élèves s'affrontent sur des problèmes algorithmiques.
+          </p>
+          <span>Algorithmique · Web</span>
+        </article>
 
+        <article class="project-card">
+          <h3>BookTradeCenter</h3>
+          <p>
+            L'un de mes premiers projets : une plateforme conçue pour mettre en relation des lecteurs et permettre
+            l'échange gratuit de livres.
+          </p>
+          <span>Web · Projet personnel</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Quiz de verbes irréguliers</h3>
+          <p>
+            Application Python simple permettant de réviser les verbes irréguliers anglais depuis un navigateur.
+          </p>
+          <span>Python · HTML · CSS</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Projets web & jeux vidéo</h3>
+          <p>
+            Sites vitrines, expérimentations web et jeux réalisés avec Unity/C# depuis mes premières années de programmation.
+          </p>
+          <span>JavaScript · C# · Unity</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Compétences</p>
+        <h2>Technologies que j'utilise</h2>
+      </div>
+
+      <div class="skills-list">
+        <span>Python</span>
+        <span>C</span>
+        <span>C++</span>
+        <span>C#</span>
+        <span>OCaml</span>
+        <span>JavaScript</span>
+        <span>SQL</span>
+        <span>HTML/CSS</span>
+        <span>Git & GitHub</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Me retrouver</h2>
+      </div>
+      <p>
+        Pour voir mes projets ou me contacter, vous pouvez passer par GitHub ou par email.
+      </p>
+      <div class="contact-links">
+        <a href="https://github.com/yolita1" target="_blank" rel="noopener noreferrer">github.com/yolita1</a>
+        <a href="mailto:ym.litayem@gmail.com">ym.litayem@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Mohamed Youssef Litayem</p>
+  </footer>
 </body>
 </html>
